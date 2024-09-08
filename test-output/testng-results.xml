@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-08T23:27:26 IST" name="Somke_Suite" finished-at="2024-09-08T23:28:04 IST" duration-ms="37573">
+    <groups>
+    </groups>
+    <test started-at="2024-09-08T23:27:26 IST" name="Somke_test" finished-at="2024-09-08T23:28:04 IST" duration-ms="37573">
+      <class name="SpyneAutomation.TestCases.TC_UploadImage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:SpyneAutomation.TestCases.TC_UploadImage@1356d4d4]" started-at="2024-09-08T23:27:26 IST" name="beforeSuite" finished-at="2024-09-08T23:27:26 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="inititalizeWebDriver(java.lang.String)[pri:0, instance:SpyneAutomation.TestCases.TC_UploadImage@1356d4d4]" started-at="2024-09-08T23:27:26 IST" name="inititalizeWebDriver" finished-at="2024-09-08T23:27:33 IST" duration-ms="6714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inititalizeWebDriver -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:SpyneAutomation.TestCases.TC_UploadImage@1356d4d4]" started-at="2024-09-08T23:27:33 IST" name="beforeTest" finished-at="2024-09-08T23:27:33 IST" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JPEG.jpeg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="upscale_test()[pri:1, instance:SpyneAutomation.TestCases.TC_UploadImage@1356d4d4]" started-at="2024-09-08T23:27:33 IST" name="upscale_test" finished-at="2024-09-08T23:28:04 IST" duration-ms="30674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upscale_test -->
+      </class> <!-- SpyneAutomation.TestCases.TC_UploadImage -->
+    </test> <!-- Somke_test -->
+  </suite> <!-- Somke_Suite -->
+</testng-results>

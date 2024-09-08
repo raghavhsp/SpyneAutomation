@@ -1,0 +1,1 @@
+{"uuid":"390b0bcb-d72c-4aff-8091-dae46e013bcf","name":"SpyneAutomation.TestCases.TC_UploadImage","children":["fdbf884a-be92-495e-a6ac-cf56060b5e1f"],"befores":[{"name":"beforeTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1725822085556,"stop":1725822085557}],"afters":[],"start":1725822081573,"stop":1725822115171}

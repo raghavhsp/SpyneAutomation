@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Somke_Suite" configurablepolicy="continue" thread-count="1">
+
+<listeners>
+	<listener class-name="Spyne.SpyneAutomationUtils.TestListner" />
+</listeners>
+	<parameter name="browserType" value="chrome" />
+
+	<test name="Test With JPG" reserve-order="true">
+
+		<parameter name="fileName" value="JPG.jpg" />
+		<classes>
+			<class name="SpyneAutomation.TestCases.TC_UploadImage" />
+		</classes>
+
+	</test>
+
+	<test name="Test With PNG" reserve-order="true">
+
+		<parameter name="fileName" value="PNG.png" />
+		<classes>
+			<class name="SpyneAutomation.TestCases.TC_UploadImage" />
+		</classes>
+
+	</test>
+
+	<test name="Test With JPEG" reserve-order="true">
+
+		<parameter name="fileName" value="JPEG.jpeg" />
+		<classes>
+			<class name="SpyneAutomation.TestCases.TC_UploadImage" />
+		</classes>
+
+	</test>
+
+
+</suite> 
